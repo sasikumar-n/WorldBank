@@ -6,3 +6,4 @@ import streamlit as st
 st.title('worldBankIndia')
 india = pd.read_csv('World_Bank_India.csv', skiprows=4)
 st.write(india)
+st.write(india.index)
